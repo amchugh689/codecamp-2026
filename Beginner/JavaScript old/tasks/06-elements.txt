@@ -1,0 +1,34 @@
+In JavaScript, we can use loops to iterate through code.
+
+a) For loops will continue to iterate until it reaches a limit:
+ for(let i = 0; i < list.length; i++) {
+    // code
+ } 
+    The check in the loop can be any value, but in this example it iterates through the length of a list.
+
+b) ForEach loops will iterate through a list of values
+    let number = [12, 25, 39, 82] // Initialises an array
+    number.forEach(myFunction)
+
+    function myFunction(item, index, arr) {
+        arr[index] = item * 10 // Iterates through the array and multiplies each value by 10
+    }
+
+c) While loops will continue to perform an action until a parameter is false
+    
+    let check = true;
+    while(check) {
+        // code
+    }
+
+
+Using this and the tutorials, complete the following tasks:
+
+1. Create a separate JavaScript file and link it to your HTML file
+2. Create a function that changes the text in a header element with the id="demo"
+3. Create a function that only changes the colour of the heading when a button is pressed.
+4. Add multiple <p> elements to the page. Create a function that changes the colour of all of them using a loop.
+
+Stretch task:
+
+5. Add a picture to the page. Create a function that will change the picture displayed when a button is clicked.

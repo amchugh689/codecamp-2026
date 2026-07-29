@@ -2,9 +2,9 @@
 ___
 The recommended way of applying CSS to multiple elements and files is to use a separate CSS file which contains all the styling rules you wish to apply.
 
-For example, this would change all <p> tags to have a font size of 30 pixels if set in the external file.
+For example, this would change all ```<p>``` tags to have a font size of 30 pixels if set in the external file.
 
-This example shows you how the <link> element works. This tag defines a link between a document and an external resource, and it used to link external style sheets such as CSS.
+This example shows you how the ```<link>``` element works. This tag defines a link between a document and an external resource, and it used to link external style sheets such as CSS.
 
 ```html
 <!DOCTYPE html>

@@ -1,7 +1,7 @@
 ___
 A for loop allows you to repeat code multiple times without writing it over and over again.
 
-Lets take a look at what a for loop looks like:
+Let's take a look at what a for loop looks like:
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -10,7 +10,7 @@ for (let i = 0; i < 5; i++) {
 
 ```
 
-Lets break this down - fortunately for you not in the rap sense:
+Let's break this down - fortunately for you not in the rap sense:
 
 - **for**: this is the keyword that says we are going to make a for loop
 - **()**: inside the brackets goes 3 things, where we start, the condition and the update:

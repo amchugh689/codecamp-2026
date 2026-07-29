@@ -2,7 +2,7 @@
 ___
 Inline CSS changes the style property of the tag directly using the style attribute. This way is not recommended as this can become repetitive if you plan on reusing the same structuring for several tags.
 
-For instance, if you want to change the font size of just one of the <p> tags, then you can specify that like this:
+For instance, if you want to change the font size of just one of the ```<p>``` tags, then you can specify that like this:
 
 ```html
 <body>

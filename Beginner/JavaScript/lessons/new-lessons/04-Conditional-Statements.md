@@ -1,6 +1,6 @@
 ___
 
-In real life we need to make a lot of decisions, like am I going to eat 5 donuts or 6 donuts. Its a tough call. When programming it is exactly the same, the programs we write often reflect real life whether it be a process or a behaviour our code will need to make decisions based on different things. 
+In real life we need to make a lot of decisions, like am I going to eat 5 donuts or 6 donuts. It's a tough call. When programming it is exactly the same, the programs we write often reflect real life whether it be a process or a behaviour our code will need to make decisions based on different things. 
 
 To make a decision in programming we use something called an If Statement. For example if we had a log in page. We would need to check **IF** the password the user has entered matches the password we have stored. **IF** it does then we let the user log in otherwise we show an error.
 
@@ -80,6 +80,7 @@ That’s where **logical operators** come in—they let you combine conditions t
 | `&&`     | AND  | True **only if both** conditions are true      | `age > 13 && age < 18`                 |
 | \|\|     | OR   | True if either one or both conditions are true | day == "saturday" \|\| day == "sunday" |
 | `!`      | NOT  | Flips true to false, or false to true          | `!isLoggedIn`                          |
+
 For example on a log in page we could check the username and password like so:
 
 ```js

@@ -1,4 +1,4 @@
-Now we've done a lot more reading lets do some more programming!!
+Now we've done a lot more reading let's do some more programming!!
 
 ___
 ### Task 1: Traffic Lights

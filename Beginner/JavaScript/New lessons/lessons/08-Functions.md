@@ -23,7 +23,7 @@ ___
 
 ### Functions with Parameters
 
-Now lets look at a function with a parameter:
+Now let's look at a function with a parameter:
 
 ```js
 function sayHello(name) {

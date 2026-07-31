@@ -114,7 +114,7 @@ Inside your new JavaScript function for this we are going to add:
 let email = document.getElementById("email").value
 ```
 
-Its that simple, everything is working exactly as before when changing the text but instead of using `innerHTML` we are using this `value` property to get the entered text to the entry box. This means the variable email contains whatever the user has entered.
+It's that simple, everything is working exactly as before when changing the text but instead of using `innerHTML` we are using this `value` property to get the entered text to the entry box. This means the variable email contains whatever the user has entered.
 
 #### Creating Objects
 
@@ -207,6 +207,6 @@ if (!found) {
 }
 ```
 
-So lets recap - each time the for loop repeats we are checking another element of the list and using the `.email` access the email attribute of the object and we are checking if that is equal to a variable that stores the email the user entered `userEmail`. If it matches we console.log the object and set `found` to `true` so we remember we matched something. Once the loop has finished checking every element, we then check `found` - if it is still `false` that means we never matched anything, so only then do we print "Not Found". Here you could display the booking details to the user properly, rather than just a console.log.
+So let's recap - each time the for loop repeats we are checking another element of the list and using the `.email` access the email attribute of the object and we are checking if that is equal to a variable that stores the email the user entered `userEmail`. If it matches we console.log the object and set `found` to `true` so we remember we matched something. Once the loop has finished checking every element, we then check `found` - if it is still `false` that means we never matched anything, so only then do we print "Not Found". Here you could display the booking details to the user properly, rather than just a console.log.
 
 And with that I bid you farewell, your training is complete young Padawan I have taught you all I can teach and you are ready to tackle any programming task you may come to find.

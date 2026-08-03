@@ -371,4 +371,4 @@ In Lesson 3, students will make the snake move. The key concept is: to move the 
 
 Your snake looks great, but it just sits there! In **Lesson 3**, we will make the snake move using the arrow keys and learn how to control the game's speed.
 
-[← Back to Lesson 1](Lesson-01-Getting-Started.md) | [→ Continue to Lesson 3: Snake Movement](Lesson-03-Snake-Movement.md)
+[← Back to Lesson 1](Advanced/WIP/Snake/Lesson-01-Getting-Started.md) | [→ Continue to Lesson 3: Snake Movement](Lesson-03-Snake-Movement.md)

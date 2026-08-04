@@ -24,7 +24,7 @@ Some versions of this style of game let you hold a key to rise steadily instead 
 
 ## Idea: Sound Effects
 
-A short sound for flapping and a different one for a collision. Browser-based sandboxes don't always support audio reliably, so sound code is usually written to fail silently rather than crash the game if it doesn't work.
+A short sound for flapping and a different one for a collision. Browser-based environments don't always support audio reliably, so sound code is usually written to fail silently rather than crash the game if it doesn't work.
 
 ---
 

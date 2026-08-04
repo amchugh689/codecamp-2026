@@ -8,7 +8,7 @@ A game window with a running game loop, showing a player ship and a grid of enem
 
 ## Task 1: Open a Window
 
-In your Pygame sandbox, clear `main.py` and add:
+Open the Exercise for this lesson. `main.py` starts empty; add:
 
 ```python
 import pygame

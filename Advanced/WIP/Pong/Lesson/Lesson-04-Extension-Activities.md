@@ -28,7 +28,7 @@ So far, the game runs forever. Adding a target score and a way to stop and displ
 
 ## Idea: Sound Effects
 
-A short sound on a paddle hit or a scored point adds feedback beyond what you can see. Browser-based sandboxes don't always support audio reliably, so sound code is usually written to fail silently rather than crash the game if it doesn't work.
+A short sound on a paddle hit or a scored point adds feedback beyond what you can see. Browser-based environments don't always support audio reliably, so sound code is usually written to fail silently rather than crash the game if it doesn't work.
 
 ---
 

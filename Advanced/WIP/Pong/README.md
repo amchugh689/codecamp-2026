@@ -2,7 +2,7 @@
 
 ## Overview
 
-Over 4 short lessons, you will build a Pong-style game from scratch using Python and PyGame in the CodeHS Pygame sandbox.
+Over 4 short lessons, you will build a Pong-style game from scratch using Python and PyGame on CodeHS.
 
 You will end up with a paddle you control, a ball that bounces around the court, a score, and a working game loop, plus a set of optional extensions to make the game your own.
 
@@ -22,25 +22,29 @@ You should already be comfortable with:
 
 No prior PyGame experience is needed; each lesson introduces what you need as you go.
 
-## Setting Up
+## Getting Started
 
-1. Log in to CodeHS and create a new **Pygame** sandbox (look for a Pygame template under the Python sandbox options)
-2. All the code for this series goes in `main.py`
-3. Use **one sandbox for the whole series**: each lesson adds to the code from the one before
+Your CodeHS course already has this series set up as **Notes** and **Exercise** items, one pair per lesson: a Notes item with the concepts, and an Exercise item with the Pygame environment already configured. You don't need to create a sandbox yourself.
+
+1. Open each lesson's Notes item to read the concepts, then its Exercise item to do the task
+2. All the code for each lesson goes in `main.py`
+3. Each Exercise's starter code is empty for Lesson 1, then already includes your finished code from the lesson before it from Lesson 2 onward, so nothing needs to be copied across by hand
 
 ## Lessons
 
-| # | Lesson | Concepts | Task | What You Build |
-|---|--------|----------|------|-----------------|
-| 1 | Getting Started | [Concepts](Lesson/Lesson-01-Getting-Started.md) | [Task](Tutorial/Lesson-01-Getting-Started-Task.md) | Game window, game loop, paddle and ball drawn on screen |
-| 2 | Paddle Movement | [Concepts](Lesson/Lesson-02-Paddle-Movement.md) | [Task](Tutorial/Lesson-02-Paddle-Movement-Task.md) | Move your paddle with the keyboard |
-| 3 | Ball, Bouncing & Scoring | [Concepts](Lesson/Lesson-03-Ball-Bouncing-Scoring.md) | [Task](Tutorial/Lesson-03-Ball-Bouncing-Scoring-Task.md) | A moving ball that bounces, a score, and a miss/reset |
-| 4 | Extension Activities | [Concepts](Lesson/Lesson-04-Extension-Activities.md) | [Task](Tutorial/Lesson-04-Extension-Activities-Task.md) | Optional: AI opponent, two-player mode, difficulty, and more |
+| # | Lesson | Concepts | Task | Example Code | What You Build |
+|---|--------|----------|------|---------------|-----------------|
+| 1 | Getting Started | [Concepts](Lesson/Lesson-01-Getting-Started.md) | [Task](Tutorial/Lesson-01-Getting-Started-Task.md) | [main.py](Example/Lesson-01-Getting-Started.py) | Game window, game loop, paddle and ball drawn on screen |
+| 2 | Paddle Movement | [Concepts](Lesson/Lesson-02-Paddle-Movement.md) | [Task](Tutorial/Lesson-02-Paddle-Movement-Task.md) | [main.py](Example/Lesson-02-Paddle-Movement.py) | Move your paddle with the keyboard |
+| 3 | Ball, Bouncing & Scoring | [Concepts](Lesson/Lesson-03-Ball-Bouncing-Scoring.md) | [Task](Tutorial/Lesson-03-Ball-Bouncing-Scoring-Task.md) | [main.py](Example/Lesson-03-Ball-Bouncing-Scoring.py) | A moving ball that bounces, a score, and a miss/reset |
+| 4 | Extension Activities | [Concepts](Lesson/Lesson-04-Extension-Activities.md) | [Task](Tutorial/Lesson-04-Extension-Activities-Task.md) | not included | Optional: AI opponent, two-player mode, difficulty, and more |
+
+The full finished base game (Lessons 1-3 combined) is also available as [Example/Complete-Game.py](Example/Complete-Game.py).
 
 ## Tips
 
 - Run your code after every change: it's much easier to spot what broke in 3 new lines than in 30.
-- If something doesn't work, compare your code line-by-line against the lesson's complete code.
+- If something doesn't work, compare your code line-by-line against that lesson's complete code, linked in the table above.
 - Change numbers (speeds, sizes, colours) and see what happens. Breaking things on purpose is a great way to learn.
 
 ---

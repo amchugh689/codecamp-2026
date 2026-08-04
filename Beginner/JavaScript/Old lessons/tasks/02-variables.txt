@@ -1,0 +1,19 @@
+In JavaScript, it is possible to write things to the console using the console.log() function. We can use it like this:
+
+    console.log("Hello World!")
+
+
+This will display the text inside the brackets in the console's output. We can use the console.log() function to print variables as well.
+
+
+
+Complete the following exercises using variables and the console.log() function:
+
+
+
+1. Create a variable that will store your age
+2. Create a variable that will store your name
+3. Use console.log() to print out the message: "Hello, (name). You are (age) years old."
+4. Make a new constant variable to store Pi up to 2 decimal places (3.14)
+5. Try to use one of the mathematical operators on this variable. What happens?
+6. Using your Pi variable, write a statement that will print out the circumference of a circle with a diameter you specify in a variable. (circumference = pi * diameter)

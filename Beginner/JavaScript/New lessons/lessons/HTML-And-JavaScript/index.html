@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Tasty Bites</h1>
+      <ul class="nav-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#drinks">Drinks</a></li>
+        <li><a href="#booking">Book</a></li>
+        <li><a href="#check">Check</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Food Menu Section -->
+    <section id="menu" class="section">
+      <h2>Food Menu</h2>
+      <ul class="menu-list">
+        <li><strong>Classic Cheeseburger</strong> – £8.99</li>
+        <li><strong>Bowl of Donuts</strong> – £7.49</li>
+        <li><strong>Veggie Burrito</strong> – £7.99</li>
+        <li><strong>Loaded Nachos</strong> – £6.50</li>
+        <li><strong>BBQ Ribs</strong> – £12.00</li>
+        <li><strong>Mac & Cheese</strong> – £6.95</li>
+        <li><strong>Spicy Tofu Stir Fry</strong> – £9.25</li>
+      </ul>
+    </section>
+
+    <!-- Drinks Menu Section -->
+    <section id="drinks" class="section">
+      <h2>Drinks Menu</h2>
+      <ul class="menu-list">
+        <li><strong>Cola (330ml)</strong> – £2.00</li>
+        <li><strong>Fresh Lemonade</strong> – £2.50</li>
+        <li><strong>Iced Coffee</strong> – £2.95</li>
+        <li><strong>Mango Smoothie</strong> – £3.50</li>
+        <li><strong>Still Water</strong> – £1.50</li>
+        <li><strong>Fruit Punch (Mocktail)</strong> – £3.75</li>
+      </ul>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="section">
+      <h2>Book a Table</h2>
+      <form id="booking-form">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="Your first name" />
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Your last name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your email" />
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" />
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" />
+
+        <label for="guests">Guests:</label>
+        <input type="number" id="guests" placeholder="Number of guests" />
+
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+
+    <!-- Check Availability & Booking -->
+    <section id="check" class="section">
+      <h2>Check Availability or Existing Booking</h2>
+
+      <div class="check-group">
+        <h3>Check Available Tables</h3>
+        <h4 id="availability-counter"></h4>
+
+        <button>Check Availability</button>
+      </div>
+
+      <div class="check-group">
+        <h3>Find Your Booking</h3>
+        <form id="find-booking-form">
+          <label for="booking-email">Your Email:</label>
+          <input type="email" id="booking-email" placeholder="Enter your email" />
+
+          <button type="submit">Find Booking</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="section">
+      <h2>Customer Reviews</h2>
+      <blockquote>“The burger was juicy and full of flavor!” – Riley</blockquote>
+      <blockquote>“Loved the variety of vegetarian options.” – Sam</blockquote>
+      <blockquote>“Quick service and the Donuts are amazing!” – Jordan</blockquote>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Tasty Bites. All rights reserved.</p>
+  </footer>
+
+  <!-- Where to add in Script Tag -->
+
+  <script src="script.js"></script>
+</body>
+</html>

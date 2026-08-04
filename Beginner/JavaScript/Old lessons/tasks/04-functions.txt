@@ -1,0 +1,13 @@
+In JavaScript, we're able to add variables into strings more easily by using the following structure:
+
+let name = 'Dave'
+console.log(`Hello, ${name}!`) // This will print "Hello, Dave!"
+
+Note that you must use backticks for this to work.
+
+Using this and the previous tutorials, complete the following tasks:
+
+1. Write a function that prints "Hello World" into the console.
+2. Write a function that takes in two number parameters and adds them, printing the result in the console. You can use variables for the parameter.
+3. Write a function that takes in a person's name and age, and print these in the console in the format "Your name is (name) and you are (age) years old".
+4. Write a function that returns the area of a circle (using the formula area = 3.14 * radius^2), and use this value in another function that prints the area.

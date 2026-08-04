@@ -1,0 +1,17 @@
+In HTML, we can use the <button> tag to add an interactive button to our website. To add a function to this, we can add the name of the function to the onclick event:
+
+        <button onclick="myFunction()">Click me</button>
+
+We are able to send pop-up alerts to the user with the alert() function:
+
+        myFunction() {
+            alert("Hello!");
+        }
+
+
+Using these, the tutorials and the CodeHS docs, complete the following tasks:
+
+1. Make a function that will send an alert that says "Hello!" when you click a button.
+2. Make this function take a parameter, and add this parameter to the alert.
+3. It is possible to add HTML code to the page using document.body.innerHTML. Research this, and write a script that will display a message on the page.
+

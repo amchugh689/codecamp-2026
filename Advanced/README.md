@@ -2,10 +2,11 @@
 
 Advanced students (previous attendees or students whose applications highlight previous experience) will be using Pygame to make a game. 
 
-## TODO:
+## TODO:
 - [ ] 3 demo games
-  - [x] Snake 
-  - [ ] Pong?
-  - [ ] secret third game :P
+  - [ ] Snake 
+  - [ ] Pong (vs ai/wall)
+  - [ ] Space invaders type shooter-lite
+  - [ ] Flappy bird/platformer
 - [ ] Review
 - [ ] Test in CodeHS

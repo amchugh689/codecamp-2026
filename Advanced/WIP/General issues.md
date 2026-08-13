@@ -1,0 +1,1 @@
+- ~~no game builds on codehs~~ - **Fixed**: added `os.environ["SDL_AUDIODRIVER"] = "dsp"` before `pygame.init()` in every example file, matching CodeHS's own reference examples, so the sandbox's ALSA/sound-card probing doesn't get in the way.

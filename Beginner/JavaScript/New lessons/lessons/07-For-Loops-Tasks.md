@@ -1,20 +1,24 @@
-___
+## For Loops — Tasks
 
-### Task 1:  Display "Hello There"
+---
 
-Hello weary traveller, your first quest is to display "Hello There" 5 times in the console, using the new magic you have learned named "For Loop".
+### Task 1: Display "Hello There" Five Times
 
-___
-### Task 2: Display a count from 1 to 5
+Use a for loop to print `"Hello There"` to the console 5 times.
 
-For your next task, you should display the numbers 1 to 5 in the console, however a twist you cannot just do:
-```js
-console.log("1")
-console.log("2")
-console.log("3")
-console.log("4")
-console.log("5")
-```
+---
 
-You must use a for loop and as a little hint: you will need to use the variable `i`.
+### Task 2: Count from 1 to 5
+
+Use a for loop to display the numbers 1 through 5 in the console.
+
+You **cannot** just write five separate `console.log` statements — you must use the loop variable `i`.
+
+---
+
+### Task 3: Sum of Numbers
+
+Use a for loop to add up all the numbers from 1 to 10. Log the total at the end.
+
+**Hint:** Create a variable before the loop to keep a running total, and add `i` to it each time.
 

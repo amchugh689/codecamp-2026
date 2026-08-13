@@ -81,7 +81,7 @@ If you want to keep a copy of each lesson's code, you can create a new sandbox f
 
 | # | Lesson | What You Build |
 |---|--------|---------------|
-| 1 | [Getting Started](Lesson-01-Getting-Started.md) | A game window with a game loop |
+| 1 | [Getting Started](Advanced/WIP/Snake/Lesson-01-Getting-Started.md) | A game window with a game loop |
 | 2 | [Drawing the Snake](Lesson-02-Drawing-the-Snake.md) | A snake displayed on screen |
 | 3 | [Snake Movement](Lesson-03-Snake-Movement.md) | Arrow key movement |
 | 4 | [Food](Lesson-04-Food.md) | Random food appearing |
@@ -123,4 +123,4 @@ Before starting Lesson 1, make sure you can:
 
 ---
 
-*Let's build a game! Start with [Lesson 1 – Getting Started](Lesson-01-Getting-Started.md).*
+*Let's build a game! Start with [Lesson 1 – Getting Started](Advanced/WIP/Snake/Lesson-01-Getting-Started.md).*

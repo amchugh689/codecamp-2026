@@ -52,5 +52,5 @@ Here are some examples:
   - Include features, pros and cons, pricing, and comparisons with other products.
 
 - **School Club/Organisation Page**  
-  - Develop a page for a school club or organization you're part of.  
+  - Develop a page for a school club or organisation you're part of.  
   - Include information about the club, upcoming events, and membership details.

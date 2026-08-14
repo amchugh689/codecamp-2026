@@ -1,4 +1,4 @@
-## JavaScript and HTML — Tasks
+## JavaScript and HTML - Tasks
 
 ### Task 1: Linking JavaScript to HTML
 
@@ -16,7 +16,7 @@ The `src` attribute tells the browser which file to load. If your JS file is in 
 
 ### Global vs Local Variables
 
-Variables have **scope** — where they can be accessed from:
+Variables have **scope** - where they can be accessed from:
 
 - **Global** variables are created outside any function and can be used anywhere in the file.
 - **Local** variables are created inside a function and only exist within that function.

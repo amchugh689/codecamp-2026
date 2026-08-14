@@ -1,4 +1,4 @@
-## While Loops — Tasks
+## While Loops - Tasks
 
 ---
 

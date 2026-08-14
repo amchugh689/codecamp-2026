@@ -1,4 +1,4 @@
-## Variables — Tasks
+## Variables - Tasks
 
 We can use `console.log()` to display things in the browser's console. This is useful for checking that variables hold the values we expect. In this exercise, we'll use it to learn how variables work.
 
@@ -12,7 +12,7 @@ On the first line of your JavaScript file, write:
 console.log("Hello There")
 ```
 
-Then click the green **Run** button. You should see "Hello There" appear in the output window. Congratulations — you've just written code!
+Then click the green **Run** button. You should see "Hello There" appear in the output window. Congratulations, you've just written code!
 
 ---
 
@@ -26,7 +26,7 @@ const age = 291;
 
 (Replace 291 with your actual age... unless you really are an intergalactic hero.)
 
-Now on your own, create another variable called `name` that stores your name. Remember — names are strings, so the value needs to be in quotes (`""`).
+Now on your own, create another variable called `name` that stores your name. Remember, names are strings, so the value needs to be in quotes (`""`).
 
 ---
 

@@ -1,6 +1,6 @@
 ## Final Project: Build Your Own Webpage!
 
-Through the lessons above, you should have gained enough information to better understand what makes a website work — and more importantly, how it is structured.
+Through the lessons above, you should have gained enough information to better understand what makes a website work - and more importantly, how it is structured.
 
 Now, the floor is yours.  
 
@@ -51,6 +51,6 @@ Here are some examples:
   - Review the latest tech gadgets or apps.  
   - Include features, pros and cons, pricing, and comparisons with other products.
 
-- **School Club/Organization Page**  
+- **School Club/Organisation Page**  
   - Develop a page for a school club or organization you're part of.  
   - Include information about the club, upcoming events, and membership details.

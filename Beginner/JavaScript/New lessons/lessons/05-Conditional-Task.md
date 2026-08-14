@@ -1,4 +1,4 @@
-## Conditional Statements — Tasks
+## Conditional Statements - Tasks
 
 ---
 
@@ -6,7 +6,7 @@
 
 Create a variable called `lightColour` and set it to `"red"`, `"orange"`, or `"green"`.
 
-Write an if/else if/else block that:
+Write an `if else` block that:
 - Logs `"Stop"` if the light is red
 - Logs `"Get ready"` if the light is orange
 - Logs `"Go"` if the light is green
@@ -32,5 +32,5 @@ Create two variables:
 
 Calculate the percentage, then write an if statement that:
 - 90% or above → log `"Excellent!"`
-- 70–89% → log `"Good job!"`
+- 70-89% → log `"Good job!"`
 - Below 70% → log `"Keep practicing!"`

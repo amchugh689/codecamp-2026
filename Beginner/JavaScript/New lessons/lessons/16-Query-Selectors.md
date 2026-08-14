@@ -4,7 +4,7 @@
 
 ---
 
-### querySelector — Select One Element
+### querySelector - Select One Element
 
 Returns the **first** element that matches:
 
@@ -16,14 +16,14 @@ element.style.color = "red";
 This finds the first element with class `example` and makes its text red.
 
 You can use any CSS selector:
-- `".className"` — select by class
-- `"#idName"` — select by ID
-- `"p"` — select by tag
-- `"div .child"` — select nested elements
+- `".className"` - select by class
+- `"#idName"` - select by ID
+- `"p"` - select by tag
+- `"div .child"` - select nested elements
 
 ---
 
-### querySelectorAll — Select Multiple Elements
+### querySelectorAll - Select Multiple Elements
 
 Returns **all** matching elements as a list:
 
@@ -47,4 +47,4 @@ This makes every element with class `example` blue.
 | Returns one element | Returns first match |
 | Slightly faster | More flexible |
 
-Both work well. Use whichever fits your situation — `querySelector` is more versatile, `getElementById` is simpler for IDs.
+Both work well. Use whichever fits your situation - `querySelector` is more versatile, `getElementById` is simpler for IDs.

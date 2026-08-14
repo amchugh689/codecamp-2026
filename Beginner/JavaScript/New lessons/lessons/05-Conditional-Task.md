@@ -6,7 +6,7 @@
 
 Create a variable called `lightColour` and set it to `"red"`, `"orange"`, or `"green"`.
 
-Write an `if else` block that:
+Write a conditional `if, else if, else` statement that:
 - Logs `"Stop"` if the light is red
 - Logs `"Get ready"` if the light is orange
 - Logs `"Go"` if the light is green

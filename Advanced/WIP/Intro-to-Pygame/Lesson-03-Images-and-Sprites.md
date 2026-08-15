@@ -42,7 +42,7 @@ Move the sprite by changing `player_rect.x` and `player_rect.y` each frame, exac
 
 ## Resizing an Image
 
-Image files come in whatever size they were drawn at, which rarely matches what your game needs. Resize one with `pygame.transform.scale()`, giving it the image and a `(width, height)`:
+Image files render at whatever size they were saved as, which rarely matches what your game needs. Resize one with `pygame.transform.scale()`, giving it the image and a `(width, height)`:
 
 ```python
 player_image = pygame.transform.scale(player_image, (40, 40))
@@ -60,11 +60,9 @@ window.blit(player_image, player_rect)
 
 That's the whole change. Update `player_rect`'s position each frame the same way you'd update a shape's position, the drawing line is the only thing that's different.
 
-**Quick check**: what two things does `blit()` need to draw an image?
-
 ## Where to Get Images
 
-You'll need actual image files to try this. PNG files with transparent backgrounds work best.
+You'll need actual image files to try this, so browse the internet until you find something you like, or make some yourself! PNG files with transparent backgrounds work best.
 
 ## Glossary
 

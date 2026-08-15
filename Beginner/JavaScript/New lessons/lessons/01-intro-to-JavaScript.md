@@ -2,7 +2,7 @@
 
 JavaScript is one of the most important tools for making websites interactive. Ever clicked a button on a webpage and seen something change without the page reloading? That's JavaScript.
 
-It was created in 1995 to add interactive features to websites — things like menus, animations, and games. Today, it's the most popular language for web development.
+It was created in 1995 to add interactive features to websites - things like menus, animations, and games. Today, it's the most popular language for web development.
 
 JavaScript runs directly in your browser (Chrome, Firefox, Safari, etc.), so it can react instantly to what a user does. It's also used to build mobile apps (using tools like React Native), games, and server-side code (using Node.js).
 
@@ -20,5 +20,5 @@ For example:
 - Check if someone entered the correct password.
 - Show or hide content based on what the user does.
 
-In the next few sections, we'll cover the programming basics you need to get started — beginning with **Variables**.
+In the next few sections, we'll cover the programming basics you need to get started - beginning with **Variables**.
 

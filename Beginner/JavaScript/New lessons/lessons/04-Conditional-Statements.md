@@ -1,6 +1,6 @@
 ## Conditional Statements
 
-In real life we make decisions all the time. Programming is the same — our code often needs to choose what to do based on different conditions.
+In real life we make decisions all the time. Programming is the same - our code often needs to choose what to do based on different conditions.
 
 We do this with an **If Statement**. For example, on a login page we check **if** the password matches. If it does, we let the user in. Otherwise, we show an error.
 
@@ -78,7 +78,7 @@ Sometimes you need to check **more than one thing** at once. Logical operators l
 | `\|\|`   | OR   | True if **either** is true | `day === "saturday" \|\| day === "sunday"` |
 | `!`      | NOT  | Flips true to false (and vice versa) | `!isLoggedIn` |
 
-Example — checking a username **and** password:
+Example: checking a username **and** password:
 
 ```js
 if (username === "Wizard1007" && password === "MyMagicalHat") {

@@ -1,4 +1,4 @@
-## Query Selectors & DOM — Tasks
+## Query Selectors & DOM - Tasks
 
 These tasks combine query selectors, loops, and styling. You'll need an HTML file with some elements to work with.
 
@@ -34,6 +34,6 @@ Add 5 `<li>` elements inside a `<ul>`. Add a button that, when clicked, uses `qu
 
 ### Stretch Task: Toggle Styles
 
-Add a button that **toggles** the style of all `.info` paragraphs — first click makes them red, second click makes them black again.
+Add a button that **toggles** the style of all `.info` paragraphs - first click makes them red, second click makes them black again.
 
 **Hint:** You could use a global boolean variable to track the current state.

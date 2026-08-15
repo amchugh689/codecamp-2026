@@ -1,4 +1,4 @@
-## Functions — Tasks
+## Functions - Tasks
 
 ---
 

@@ -2,7 +2,7 @@
 
 ### What Are Variables?
 
-A **variable** is like a labelled box where you store a piece of data — a number, a word, or a list. You give it a name so you can use it later.
+A **variable** is like a labelled box where you store a piece of data - a number, a word, or a list. You give it a name so you can use it later.
 
 ```js
 let score = 10;
@@ -26,11 +26,11 @@ Variables let your program **remember** things:
 
 Variables can store different **types** of data:
 
-- **Numbers** — whole numbers or decimals (used for maths).
-- **Strings** — text, always wrapped in quotes.
-- **Booleans** — either `true` or `false`.
-- **Arrays** — a list of values in one variable.
-- **Objects** — a group of related values stored together.
+- **Numbers** - whole numbers or decimals (used for maths).
+- **Strings** - text, always wrapped in quotes.
+- **Booleans** - either `true` or `false`.
+- **Arrays** - a list of values in one variable.
+- **Objects** - a group of related values stored together.
 
 #### Why Does the Type Matter?
 
@@ -68,4 +68,4 @@ You can do maths with variables just like on a calculator:
 
 ---
 
-Next up — we'll put this into practice and start writing actual code!
+Next up, we'll put this into practice and start writing actual code!

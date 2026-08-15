@@ -8,7 +8,7 @@ If you have any issues, make sure to ask your mentor for help!
 
 ## Installing PyGame
 
-Open Command and type:
+Open Command Prompt and type:
 
 ```
 pip install pygame-ce
@@ -20,7 +20,7 @@ Wait until the terminal shows PyGame installed successfully, then close it.
 
 ## Running the Game
 
-Open an IDE, like Visual Studio Code or IDLE. Make a new folder in your Documents folder, create a file for your game, and paste in the code you've written on CodeHS.
+Open an IDE, like Visual Studio Code (VS Code) or IDLE. Make a new folder in your Documents folder, create a file for your game, and paste in the code you've written on CodeHS.
 
 Most IDEs have a "Play" or "Run" button, or you can use the terminal:
 
@@ -32,4 +32,4 @@ Replace `game.py` with whatever you named your file, like `snake.py` or `pong.py
 
 ## Important Note
 
-Any file you make on the lab computers will be **deleted at the end of the day**. If you make changes locally, copy your code back and **save it on CodeHS** so you still have it for the rest of the week.
+Any file you make on the lab computers will be **deleted at the end of the day**. If you make changes locally, copy your code back and **save it on CodeHS** so you still have it for the rest of the week. 

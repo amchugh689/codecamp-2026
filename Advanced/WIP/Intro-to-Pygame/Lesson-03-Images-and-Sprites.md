@@ -1,6 +1,7 @@
+
 ## Why Bother With Images?
 
-Every game so far in this prep material draws players, enemies, and obstacles as plain rectangles or circles. That's on purpose: shapes keep the focus on logic instead of artwork. But for your own project, swapping a rectangle for a picture, a **sprite**, is one of the easiest ways to make a game look like a real game instead of a prototype.
+Every game so far in this prep material draws players, enemies, and obstacles as plain rectangles or circles. But for your own project, swapping a rectangle for a picture, called a **sprite**, is one of the easiest ways to make a game look more polished, instead of a prototype.
 
 A sprite is just an image PyGame draws onto the screen at a given position, the same way you've already been drawing shapes.
 
@@ -16,28 +17,26 @@ Change `"player.png"` to match whatever your image is called.
 
 This reads the file once and stores it as a **Surface**, the same kind of object your game window is. Do this once, outside the game loop, since re-loading the file every frame would slow the game down for no benefit.
 
-**Quick check**: why load the image before the game loop starts, rather than inside it?
-
 ## Transparency With convert_alpha()
 
-Most sprite images have transparent backgrounds so they don't show up as a solid box. Tell PyGame to handle that properly, and draw faster, by calling `convert_alpha()` right after loading:
+Most sprite images have transparent backgrounds so they don't show up as a solid box. You can tell PyGame to handle that properly, and draw faster, by calling `convert_alpha()` right after loading:
 
 ```python
 player_image = pygame.image.load("player.png").convert_alpha()
 ```
 
-Without it, transparent areas can appear as solid black or white, and every image draws slower.
+Without it, transparent areas will appear as solid black or white, and every image draws slower.
 
 ## Sizing an Image With Rects
 
-A `pygame.Rect` describes a box: an `(x, y)` position plus a width and height. If your game already uses rects for shapes, positioning and collision work the same way for images, `get_rect()` builds one from the image's actual size:
+A `rect` describes a box: an `(x, y)` position plus a width and height. You've already used rects to position and move plain shapes; images work the same way. Call `get_rect()` on your loaded image to build a rect that matches its actual size:
 
 ```python
 player_rect = player_image.get_rect()
 player_rect.center = (WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2)
 ```
 
-Move the sprite by changing `player_rect.x` and `player_rect.y` each frame, and check whether it overlaps another rect with `player_rect.colliderect(other_rect)`. The image just gives you something nicer to draw at that rect's position, the position and collision logic don't change.
+Move the sprite by changing `player_rect.x` and `player_rect.y` each frame, exactly as you would for a shape. Collision works the same way too: check whether two rects overlap with `player_rect.colliderect(other_rect)`. The image only changes what gets drawn; the position and collision logic don't change.
 
 **Quick check**: if two sprites' images don't overlap but their rects are set slightly larger than the artwork, what might that do to collisions?
 

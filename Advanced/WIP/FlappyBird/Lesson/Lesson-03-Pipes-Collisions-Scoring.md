@@ -39,7 +39,3 @@ Once a pipe has scrolled fully off the left edge of the screen, it's no longer u
 
 - Why store one gap position per pipe instead of two separate rectangles?
 - Without the "already scored" flag, what would go wrong with the score?
-
----
-
-Ready to put this into practice? Head to [Lesson 3 Task – Pipes, Collisions & Scoring](../Tutorial/Lesson-03-Pipes-Collisions-Scoring-Task.md).

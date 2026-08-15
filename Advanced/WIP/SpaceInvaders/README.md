@@ -35,19 +35,15 @@ Your CodeHS course already has this series set up as **Notes** and **Exercise** 
 
 | # | Lesson | Concepts | Task | Example Code | What You Build |
 |---|--------|----------|------|---------------|-----------------|
-| 1 | Getting Started | [Concepts](Lesson/Lesson-01-Getting-Started.md) | [Task](Tutorial/Lesson-01-Getting-Started-Task.md) | [main.py](Example/Lesson-01-Getting-Started.py) | Game window, game loop, player ship and a grid of enemies drawn on screen |
-| 2 | Movement & Shooting | [Concepts](Lesson/Lesson-02-Movement-and-Shooting.md) | [Task](Tutorial/Lesson-02-Movement-and-Shooting-Task.md) | [main.py](Example/Lesson-02-Movement-and-Shooting.py) | Move your ship and fire bullets |
-| 3 | Enemies, Collisions & Scoring | [Concepts](Lesson/Lesson-03-Enemies-Collisions-Scoring.md) | [Task](Tutorial/Lesson-03-Enemies-Collisions-Scoring-Task.md) | [main.py](Example/Lesson-03-Enemies-Collisions-Scoring.py) | Enemies that march and drop, bullets that destroy them, a score, and a win/lose message |
-| 4 | Extension Activities | [Concepts](Lesson/Lesson-04-Extension-Activities.md) | [Task](Tutorial/Lesson-04-Extension-Activities-Task.md) | not included | Optional: enemy return fire, lives, difficulty ramp, and more |
+| 1 | Getting Started | Concepts | Task | main.py | Game window, game loop, player ship and a grid of enemies drawn on screen |
+| 2 | Movement & Shooting | Concepts | Task | main.py | Move your ship and fire bullets |
+| 3 | Enemies, Collisions & Scoring | Concepts | Task | main.py | Enemies that march and drop, bullets that destroy them, a score, and a win/lose message |
+| 4 | Extension Activities | Concepts | Task | not included | Optional: enemy return fire, lives, difficulty ramp, and more |
 
-The full finished base game (Lessons 1-3 combined) is also available as [Example/Complete-Game.py](Example/Complete-Game.py).
+The full finished base game (Lessons 1-3 combined) is also available as Example/Complete-Game.py.
 
 ## Tips
 
 - Run your code after every change: it's much easier to spot what broke in 3 new lines than in 30.
-- If something doesn't work, compare your code line-by-line against that lesson's complete code, linked in the table above.
+- If something doesn't work, compare your code line-by-line against that lesson's complete Example Code file, named in the table above.
 - Change numbers (speeds, sizes, grid dimensions) and see what happens. Breaking things on purpose is a great way to learn.
-
----
-
-Start with [Lesson 1 – Getting Started](Lesson/Lesson-01-Getting-Started.md).

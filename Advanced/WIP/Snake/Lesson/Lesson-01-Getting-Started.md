@@ -20,7 +20,3 @@ Storing it this way (rather than separate variables for "segment 1," "segment 2,
 
 - If every cell is the same fixed width, is a snake segment at an arbitrary pixel position like `x = 137` possible? Why or why not?
 - Why is a list a better fit for the snake's body than a separate variable per segment?
-
----
-
-Ready to put this into practice? Head to [Lesson 1 Task – Getting Started](../Tutorial/Lesson-01-Getting-Started-Task.md).

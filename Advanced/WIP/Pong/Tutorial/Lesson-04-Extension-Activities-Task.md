@@ -1,7 +1,5 @@
 # Lesson 4 Task – Extension Activities
 
-Builds on: [Lesson 4 – Extension Activities](../Lesson/Lesson-04-Extension-Activities.md)
-
 Start from your finished Lesson 3 code. Pick any extension below; they don't need to be done in order, except that Extension 1 changes code that some of the others build on.
 
 ## Extension 1: Turn the Wall into an AI Opponent
@@ -82,10 +80,6 @@ A few more ideas if you want to keep going, with no implementation steps provide
 
 ## Self-Check
 
-- [ ] I picked at least one extension and got it working
-- [ ] I tested my extension by actually playing the game, not just reading the code
-- [ ] My game still runs without errors after adding it
-
----
-
-[← Back to Lesson 4 Concepts](../Lesson/Lesson-04-Extension-Activities.md) | [← Back to Series Overview](../README.md)
+- I picked at least one extension and got it working
+- I tested my extension by actually playing the game, not just reading the code
+- My game still runs without errors after adding it

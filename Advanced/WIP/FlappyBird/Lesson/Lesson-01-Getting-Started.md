@@ -18,7 +18,3 @@ In this style of game, the bird doesn't actually move left or right at all: its 
 
 - If the bird's x position never changes, what has to move instead to create the illusion of forward flight?
 - Which coordinate, x or y, will Lesson 2 be concerned with changing?
-
----
-
-Ready to put this into practice? Head to [Lesson 1 Task – Getting Started](../Tutorial/Lesson-01-Getting-Started-Task.md).

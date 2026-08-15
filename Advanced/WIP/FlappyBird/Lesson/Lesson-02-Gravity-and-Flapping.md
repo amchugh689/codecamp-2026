@@ -25,7 +25,3 @@ If the bird's y-position goes above the top of the window or below the bottom, t
 
 - Why does a falling object's velocity need to change every frame, rather than staying fixed?
 - Why does a flap set velocity directly rather than gradually increasing it?
-
----
-
-Ready to put this into practice? Head to [Lesson 2 Task – Gravity & Flapping](../Tutorial/Lesson-02-Gravity-and-Flapping-Task.md).

@@ -1,7 +1,5 @@
 # Lesson 3 Task – Enemies, Collisions & Scoring
 
-Builds on: [Lesson 3 – Enemies, Collisions & Scoring](../Lesson/Lesson-03-Enemies-Collisions-Scoring.md)
-
 ## What You'll Build
 
 Enemies that march side to side and drop closer each time they hit an edge, bullets that destroy them, a score, and a message when you win or lose.
@@ -129,12 +127,8 @@ Run the full game. Destroy every enemy to see "YOU WIN", or let the grid drop do
 
 ## Self-Check
 
-- [ ] The enemy grid marches side to side and drops down when it hits an edge
-- [ ] Shooting an enemy removes it and increases your score
-- [ ] Destroying every enemy shows "YOU WIN"
-- [ ] Letting the enemies reach your ship's row shows "GAME OVER"
-- [ ] Once the game ends, the ship, bullets and enemies stop responding or moving
-
----
-
-[← Back to Lesson 3 Concepts](../Lesson/Lesson-03-Enemies-Collisions-Scoring.md) | [→ Continue to Lesson 4: Extension Activities](../Lesson/Lesson-04-Extension-Activities.md)
+- The enemy grid marches side to side and drops down when it hits an edge
+- Shooting an enemy removes it and increases your score
+- Destroying every enemy shows "YOU WIN"
+- Letting the enemies reach your ship's row shows "GAME OVER"
+- Once the game ends, the ship, bullets and enemies stop responding or moving

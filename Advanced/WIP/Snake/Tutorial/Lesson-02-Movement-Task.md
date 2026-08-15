@@ -1,7 +1,5 @@
 # Lesson 2 Task – Movement
 
-Builds on: [Lesson 2 – Movement](../Lesson/Lesson-02-Movement.md)
-
 ## What You'll Build
 
 A snake that moves on its own, one grid cell at a time, and turns with the arrow keys, without being able to reverse directly into itself.
@@ -57,11 +55,7 @@ Run it. Steer the snake around with the arrow keys. Try pressing the key for the
 
 ## Self-Check
 
-- [ ] The snake moves on its own, one cell at a time, at a steady readable pace
-- [ ] The arrow keys change direction
-- [ ] Pressing the direction directly behind the snake's current movement does nothing
-- [ ] Changing `MOVE_INTERVAL` makes the snake visibly faster or slower
-
----
-
-[← Back to Lesson 2 Concepts](../Lesson/Lesson-02-Movement.md) | [→ Continue to Lesson 3: Food, Eating & Losing](../Lesson/Lesson-03-Food-Eating-Losing.md)
+- The snake moves on its own, one cell at a time, at a steady readable pace
+- The arrow keys change direction
+- Pressing the direction directly behind the snake's current movement does nothing
+- Changing `MOVE_INTERVAL` makes the snake visibly faster or slower

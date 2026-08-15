@@ -1,0 +1,14 @@
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 10px;
+}

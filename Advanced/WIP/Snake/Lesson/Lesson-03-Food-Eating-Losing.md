@@ -28,7 +28,3 @@ Once either loss condition is true, everything that changes the game state (move
 - What's the one difference between "moving" and "eating" in terms of what happens to the tail?
 - Why should the tail be left out of the self-collision check on a normal move, but not on a move where the snake eats?
 - Why does the direction-change key handler need its own check for whether the game has ended, rather than relying on the movement code being gated?
-
----
-
-Ready to put this into practice? Head to [Lesson 3 Task – Food, Eating & Losing](../Tutorial/Lesson-03-Food-Eating-Losing-Task.md).

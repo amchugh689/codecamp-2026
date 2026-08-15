@@ -30,7 +30,3 @@ Each pass through the inner loop can work out an x and y position from `row` and
 
 - If `ROWS = 3` and `COLS = 5`, how many times does the inner loop's body run in total?
 - Why is storing enemies as a list more useful here than creating a separate variable for each one?
-
----
-
-Ready to put this into practice? Head to [Lesson 1 Task – Getting Started](../Tutorial/Lesson-01-Getting-Started-Task.md).

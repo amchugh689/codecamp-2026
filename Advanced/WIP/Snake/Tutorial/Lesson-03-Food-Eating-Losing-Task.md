@@ -1,7 +1,5 @@
 # Lesson 3 Task – Food, Eating & Losing
 
-Builds on: [Lesson 3 – Food, Eating & Losing](../Lesson/Lesson-03-Food-Eating-Losing.md)
-
 ## What You'll Build
 
 Food that makes the snake grow when eaten, a score, and wall/self-collision that ends the game.
@@ -131,12 +129,8 @@ Run the full game. Try to grow as long as possible. Running into a wall or into 
 
 ## Self-Check
 
-- [ ] Eating food grows the snake and increases your score
-- [ ] A new piece of food appears after each one is eaten
-- [ ] Running into a wall ends the game
-- [ ] Running into your own body ends the game
-- [ ] Once the game ends, the arrow keys no longer change direction
-
----
-
-[← Back to Lesson 3 Concepts](../Lesson/Lesson-03-Food-Eating-Losing.md) | [→ Continue to Lesson 4: Extension Activities](../Lesson/Lesson-04-Extension-Activities.md)
+- Eating food grows the snake and increases your score
+- A new piece of food appears after each one is eaten
+- Running into a wall ends the game
+- Running into your own body ends the game
+- Once the game ends, the arrow keys no longer change direction

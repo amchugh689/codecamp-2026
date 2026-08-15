@@ -1,7 +1,3 @@
-# Lesson 1 Task – Getting Started
-
-Builds on: [Lesson 1 – Getting Started](../Lesson/Lesson-01-Getting-Started.md)
-
 ## What You'll Build
 
 A game window with a running game loop, showing a player ship and a grid of enemies, all sitting still on screen.
@@ -12,6 +8,9 @@ Open the Exercise for this lesson. `main.py` starts empty; add:
 
 ```python
 import pygame
+import os
+
+os.environ["SDL_AUDIODRIVER"] = "dsp"
 
 pygame.init()
 
@@ -102,11 +101,7 @@ Try changing `ENEMY_ROWS` or `ENEMY_COLS` and re-running to see the grid resize.
 
 ## Self-Check
 
-- [ ] A window opens and stays open until closed
-- [ ] A green ship rectangle appears near the bottom-centre
-- [ ] A grid of red enemy rectangles appears, arranged in rows and columns
-- [ ] Changing `ENEMY_ROWS` or `ENEMY_COLS` changes the size of the grid
-
----
-
-[← Back to Lesson 1 Concepts](../Lesson/Lesson-01-Getting-Started.md) | [→ Continue to Lesson 2: Movement & Shooting](../Lesson/Lesson-02-Movement-and-Shooting.md)
+- A window opens and stays open until closed
+- A green ship rectangle appears near the bottom-centre
+- A grid of red enemy rectangles appears, arranged in rows and columns
+- Changing `ENEMY_ROWS` or `ENEMY_COLS` changes the size of the grid

@@ -1,7 +1,5 @@
 # Lesson 2 Task – Gravity & Flapping
 
-Builds on: [Lesson 2 – Gravity & Flapping](../Lesson/Lesson-02-Gravity-and-Flapping.md)
-
 ## What You'll Build
 
 A bird that falls under gravity, flaps upward when you press Space, and ends the game if it flies off the top or bottom of the window.
@@ -89,11 +87,7 @@ Run the full game. Try to keep the bird on screen by flapping. Flying off the to
 
 ## Self-Check
 
-- [ ] The bird falls under gravity, speeding up the longer it falls
-- [ ] Pressing Space gives the bird a noticeable upward flap
-- [ ] Flying off the top or bottom of the window ends the game and shows "GAME OVER"
-- [ ] Once the game ends, pressing Space no longer does anything
-
----
-
-[← Back to Lesson 2 Concepts](../Lesson/Lesson-02-Gravity-and-Flapping.md) | [→ Continue to Lesson 3: Pipes, Collisions & Scoring](../Lesson/Lesson-03-Pipes-Collisions-Scoring.md)
+- The bird falls under gravity, speeding up the longer it falls
+- Pressing Space gives the bird a noticeable upward flap
+- Flying off the top or bottom of the window ends the game and shows "GAME OVER"
+- Once the game ends, pressing Space no longer does anything

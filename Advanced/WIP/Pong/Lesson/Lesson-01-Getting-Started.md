@@ -35,7 +35,3 @@ Both need to know which surface to draw on (our window), what colour to use, and
 
 - Why does a program need a loop to keep a window open and responsive?
 - If `y` increases downward, is a shape at `y = 50` nearer the top or bottom of the window than one at `y = 200`?
-
----
-
-Ready to put this into practice? Head to [Lesson 1 Task – Getting Started](../Tutorial/Lesson-01-Getting-Started-Task.md).

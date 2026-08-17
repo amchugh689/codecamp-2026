@@ -1,7 +1,5 @@
 # Lesson 1 Task – Getting Started
 
-Builds on: [Lesson 1 – Getting Started](../Lesson/Lesson-01-Getting-Started.md)
-
 ## What You'll Build
 
 A game window with a running game loop, showing a bird sitting still on screen.
@@ -12,6 +10,9 @@ Open the Exercise for this lesson. `main.py` starts empty; add:
 
 ```python
 import pygame
+import os
+
+os.environ["SDL_AUDIODRIVER"] = "dsp"
 
 pygame.init()
 
@@ -66,10 +67,6 @@ Try changing `bird_x` and re-running to see it sit at a different horizontal pos
 
 ## Self-Check
 
-- [ ] A window opens and stays open until closed
-- [ ] A yellow square appears near the left side of the window
-- [ ] I understand why `bird_x` stays fixed while `bird_y` is the one that will change later
-
----
-
-[← Back to Lesson 1 Concepts](../Lesson/Lesson-01-Getting-Started.md) | [→ Continue to Lesson 2: Gravity & Flapping](../Lesson/Lesson-02-Gravity-and-Flapping.md)
+- A window opens and stays open until closed
+- A yellow square appears near the left side of the window
+- I understand why `bird_x` stays fixed while `bird_y` is the one that will change later

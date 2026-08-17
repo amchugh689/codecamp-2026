@@ -1,7 +1,5 @@
 # Lesson 3 Task – Pipes, Collisions & Scoring
 
-Builds on: [Lesson 3 – Pipes, Collisions & Scoring](../Lesson/Lesson-03-Pipes-Collisions-Scoring.md)
-
 ## What You'll Build
 
 Pipes that scroll in from the right with a gap to fly through, collision detection against them, and a score that goes up each time you pass one.
@@ -91,11 +89,7 @@ Run the full game. Flap through the gaps to score points; flying into a pipe (or
 
 ## Self-Check
 
-- [ ] Pipes scroll in from the right at a steady pace, each with a gap
-- [ ] Flying into a pipe ends the game
-- [ ] Successfully flying through a gap increases your score by exactly 1, not more
-- [ ] Pipes that scroll fully off the left edge disappear rather than piling up
-
----
-
-[← Back to Lesson 3 Concepts](../Lesson/Lesson-03-Pipes-Collisions-Scoring.md) | [→ Continue to Lesson 4: Extension Activities](../Lesson/Lesson-04-Extension-Activities.md)
+- Pipes scroll in from the right at a steady pace, each with a gap
+- Flying into a pipe ends the game
+- Successfully flying through a gap increases your score by exactly 1, not more
+- Pipes that scroll fully off the left edge disappear rather than piling up

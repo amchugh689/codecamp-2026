@@ -29,7 +29,3 @@ When the ball gets past the paddle entirely, that's a miss: the point where a ra
 - If a ball's velocity is `(3, -2)`, which direction is it moving?
 - Why do we check the ball's direction (`ball_dx < 0`) as well as whether it's touching the paddle, before bouncing it?
 - What are the three things you'd want to reset when a rally ends?
-
----
-
-Ready to put this into practice? Head to [Lesson 3 Task – Ball, Bouncing & Scoring](../Tutorial/Lesson-03-Ball-Bouncing-Scoring-Task.md).

@@ -25,7 +25,3 @@ There's one rule classic Snake enforces that isn't obvious at first: you can't r
 - If `dx, dy = -1, 0`, which direction is the snake moving?
 - Why does growing the snake later just mean skipping one step, rather than needing new movement code?
 - Why can't you turn directly backward in classic Snake?
-
----
-
-Ready to put this into practice? Head to [Lesson 2 Task – Movement](../Tutorial/Lesson-02-Movement-Task.md).

@@ -1,7 +1,3 @@
-# Lesson 2 Task – Movement & Shooting
-
-Builds on: [Lesson 2 – Movement & Shooting](../Lesson/Lesson-02-Movement-and-Shooting.md)
-
 ## What You'll Build
 
 A ship you can move left and right, and bullets you can fire with the spacebar that travel up the screen and disappear once they leave it.
@@ -71,11 +67,7 @@ Run the full game. Move your ship with the arrow keys and press Space to fire. Y
 
 ## Self-Check
 
-- [ ] Holding Left or Right moves the ship, stopping at the window edges
-- [ ] Pressing Space fires one bullet per press, not a continuous stream
-- [ ] Bullets travel upward and disappear once they leave the screen
-- [ ] Mashing Space repeatedly fires lots of bullets, and the game keeps running smoothly (a sign old bullets are actually being removed from the list, not just piling up off-screen)
-
----
-
-[← Back to Lesson 2 Concepts](../Lesson/Lesson-02-Movement-and-Shooting.md) | [→ Continue to Lesson 3: Enemies, Collisions & Scoring](../Lesson/Lesson-03-Enemies-Collisions-Scoring.md)
+- Holding Left or Right moves the ship, stopping at the window edges
+- Pressing Space fires one bullet per press, not a continuous stream
+- Bullets travel upward and disappear once they leave the screen
+- Mashing Space repeatedly fires lots of bullets, and the game keeps running smoothly (a sign old bullets are actually being removed from the list, not just piling up off-screen)

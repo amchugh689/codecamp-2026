@@ -35,19 +35,15 @@ Your CodeHS course already has this series set up as **Notes** and **Exercise** 
 
 | # | Lesson | Concepts | Task | Example Code | What You Build |
 |---|--------|----------|------|---------------|-----------------|
-| 1 | Getting Started | [Concepts](Lesson/Lesson-01-Getting-Started.md) | [Task](Tutorial/Lesson-01-Getting-Started-Task.md) | [main.py](Example/Lesson-01-Getting-Started.py) | Game window, game loop, a snake drawn on a grid |
-| 2 | Movement | [Concepts](Lesson/Lesson-02-Movement.md) | [Task](Tutorial/Lesson-02-Movement-Task.md) | [main.py](Example/Lesson-02-Movement.py) | A snake that moves and turns with the arrow keys |
-| 3 | Food, Eating & Losing | [Concepts](Lesson/Lesson-03-Food-Eating-Losing.md) | [Task](Tutorial/Lesson-03-Food-Eating-Losing-Task.md) | [main.py](Example/Lesson-03-Food-Eating-Losing.py) | Food that makes the snake grow, a score, and wall/self-collision that ends the game |
-| 4 | Extension Activities | [Concepts](Lesson/Lesson-04-Extension-Activities.md) | [Task](Tutorial/Lesson-04-Extension-Activities-Task.md) | not included | Optional: restart, speed ramp, wrap-around edges, and more |
+| 1 | Getting Started | Concepts | Task | main.py | Game window, game loop, a snake drawn on a grid |
+| 2 | Movement | Concepts | Task | main.py | A snake that moves and turns with the arrow keys |
+| 3 | Food, Eating & Losing | Concepts | Task | main.py | Food that makes the snake grow, a score, and wall/self-collision that ends the game |
+| 4 | Extension Activities | Concepts | Task | not included | Optional: restart, speed ramp, wrap-around edges, and more |
 
-The full finished base game (Lessons 1-3 combined) is also available as [Example/Complete-Game.py](Example/Complete-Game.py).
+The full finished base game (Lessons 1-3 combined) is also available as Example/Complete-Game.py.
 
 ## Tips
 
 - Run your code after every change: it's much easier to spot what broke in 3 new lines than in 30.
-- If something doesn't work, compare your code line-by-line against that lesson's complete code, linked in the table above.
+- If something doesn't work, compare your code line-by-line against that lesson's complete Example Code file, named in the table above.
 - Change numbers (cell size, move speed) and see what happens. Breaking things on purpose is a great way to learn.
-
----
-
-Start with [Lesson 1 – Getting Started](Lesson/Lesson-01-Getting-Started.md).

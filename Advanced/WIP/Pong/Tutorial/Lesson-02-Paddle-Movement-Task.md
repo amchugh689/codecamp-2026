@@ -1,7 +1,5 @@
 # Lesson 2 Task – Paddle Movement
 
-Builds on: [Lesson 2 – Paddle Movement](../Lesson/Lesson-02-Paddle-Movement.md)
-
 ## What You'll Build
 
 A paddle that moves up and down with the keyboard, and stays inside the window.
@@ -30,10 +28,6 @@ The `and` conditions are what stop the paddle at the edges: that's the boundary 
 
 ## Self-Check
 
-- [ ] Holding Up moves the paddle up; holding Down moves it down
-- [ ] The paddle stops at the top and bottom of the window instead of disappearing off the edge
-- [ ] Changing `PADDLE_SPEED` makes the paddle feel faster or slower
-
----
-
-[← Back to Lesson 2 Concepts](../Lesson/Lesson-02-Paddle-Movement.md) | [→ Continue to Lesson 3: Ball, Bouncing & Scoring](../Lesson/Lesson-03-Ball-Bouncing-Scoring.md)
+- Holding Up moves the paddle up; holding Down moves it down
+- The paddle stops at the top and bottom of the window instead of disappearing off the edge
+- Changing `PADDLE_SPEED` makes the paddle feel faster or slower

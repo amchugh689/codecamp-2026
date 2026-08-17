@@ -35,19 +35,15 @@ Your CodeHS course already has this series set up as **Notes** and **Exercise** 
 
 | # | Lesson | Concepts | Task | Example Code | What You Build |
 |---|--------|----------|------|---------------|-----------------|
-| 1 | Getting Started | [Concepts](Lesson/Lesson-01-Getting-Started.md) | [Task](Tutorial/Lesson-01-Getting-Started-Task.md) | [main.py](Example/Lesson-01-Getting-Started.py) | Game window, game loop, a bird drawn on screen |
-| 2 | Gravity & Flapping | [Concepts](Lesson/Lesson-02-Gravity-and-Flapping.md) | [Task](Tutorial/Lesson-02-Gravity-and-Flapping-Task.md) | [main.py](Example/Lesson-02-Gravity-and-Flapping.py) | A bird that falls under gravity and flaps upward on a key press |
-| 3 | Pipes, Collisions & Scoring | [Concepts](Lesson/Lesson-03-Pipes-Collisions-Scoring.md) | [Task](Tutorial/Lesson-03-Pipes-Collisions-Scoring-Task.md) | [main.py](Example/Lesson-03-Pipes-Collisions-Scoring.py) | Scrolling pipes with gaps, collision detection, and a score |
-| 4 | Extension Activities | [Concepts](Lesson/Lesson-04-Extension-Activities.md) | [Task](Tutorial/Lesson-04-Extension-Activities-Task.md) | not included | Optional: difficulty ramp, restart, high score, and more |
+| 1 | Getting Started | Concepts | Task | main.py | Game window, game loop, a bird drawn on screen |
+| 2 | Gravity & Flapping | Concepts | Task | main.py | A bird that falls under gravity and flaps upward on a key press |
+| 3 | Pipes, Collisions & Scoring | Concepts | Task | main.py | Scrolling pipes with gaps, collision detection, and a score |
+| 4 | Extension Activities | Concepts | Task | not included | Optional: difficulty ramp, restart, high score, and more |
 
-The full finished base game (Lessons 1-3 combined) is also available as [Example/Complete-Game.py](Example/Complete-Game.py).
+The full finished base game (Lessons 1-3 combined) is also available as Example/Complete-Game.py.
 
 ## Tips
 
 - Run your code after every change: it's much easier to spot what broke in 3 new lines than in 30.
-- If something doesn't work, compare your code line-by-line against that lesson's complete code, linked in the table above.
+- If something doesn't work, compare your code line-by-line against that lesson's complete Example Code file, named in the table above.
 - Change numbers (gravity, flap strength, gap size) and see what happens. Breaking things on purpose is a great way to learn.
-
----
-
-Start with [Lesson 1 – Getting Started](Lesson/Lesson-01-Getting-Started.md).

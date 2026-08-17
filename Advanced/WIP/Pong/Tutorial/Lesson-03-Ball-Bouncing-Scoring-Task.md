@@ -1,7 +1,5 @@
 # Lesson 3 Task – Ball, Bouncing & Scoring
 
-Builds on: [Lesson 3 – Ball, Bouncing & Scoring](../Lesson/Lesson-03-Ball-Bouncing-Scoring.md)
-
 ## What You'll Build
 
 A ball that moves on its own, bounces off the top, bottom and right walls and off your paddle, plus a score that resets when you miss.
@@ -95,11 +93,7 @@ Run the full game. Try to keep the rally going as long as possible. Missing shou
 
 ## Self-Check
 
-- [ ] The ball moves on its own and bounces off the top, bottom and right walls
-- [ ] The ball bounces off your paddle when you're in the way
-- [ ] Your score increases by 1 each time you hit the ball
-- [ ] Missing the ball resets its position and your score
-
----
-
-[← Back to Lesson 3 Concepts](../Lesson/Lesson-03-Ball-Bouncing-Scoring.md) | [→ Continue to Lesson 4: Extension Activities](../Lesson/Lesson-04-Extension-Activities.md)
+- The ball moves on its own and bounces off the top, bottom and right walls
+- The ball bounces off your paddle when you're in the way
+- Your score increases by 1 each time you hit the ball
+- Missing the ball resets its position and your score

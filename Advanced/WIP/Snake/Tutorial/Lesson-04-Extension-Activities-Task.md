@@ -1,7 +1,5 @@
 # Lesson 4 Task – Extension Activities
 
-Builds on: [Lesson 4 – Extension Activities](../Lesson/Lesson-04-Extension-Activities.md)
-
 Start from your finished Lesson 3 code. Pick any extension below; they don't need to be done in order.
 
 ## Extension 1: Restart Without Re-running
@@ -96,10 +94,6 @@ Then only play a sound when `sound_enabled` is `True`, at the moment food is eat
 
 ## Self-Check
 
-- [ ] I picked at least one extension and got it working
-- [ ] I tested my extension by actually playing the game, not just reading the code
-- [ ] My game still runs without errors after adding it
-
----
-
-[← Back to Lesson 4 Concepts](../Lesson/Lesson-04-Extension-Activities.md) | [← Back to Series Overview](../README.md)
+- I picked at least one extension and got it working
+- I tested my extension by actually playing the game, not just reading the code
+- My game still runs without errors after adding it

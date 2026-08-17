@@ -24,7 +24,3 @@ This keeps every bullet whose y-position is still greater than 0 (still on scree
 
 - Why does movement use `pygame.key.get_pressed()` while firing uses an event instead?
 - What would happen to the game over time if old bullets were never removed from the list?
-
----
-
-Ready to put this into practice? Head to [Lesson 2 Task – Movement & Shooting](../Tutorial/Lesson-02-Movement-and-Shooting-Task.md).

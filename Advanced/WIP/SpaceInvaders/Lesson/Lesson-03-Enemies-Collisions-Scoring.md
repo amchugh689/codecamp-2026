@@ -27,7 +27,3 @@ Once either happens, the usual approach is a single `game_over` flag: while it's
 - Why does the group need one shared direction variable instead of each enemy tracking its own?
 - Why is rebuilding a list of survivors safer than removing items from a list while looping over it?
 - What's the simplest way to check whether the player has destroyed every enemy?
-
----
-
-Ready to put this into practice? Head to [Lesson 3 Task – Enemies, Collisions & Scoring](../Tutorial/Lesson-03-Enemies-Collisions-Scoring-Task.md).

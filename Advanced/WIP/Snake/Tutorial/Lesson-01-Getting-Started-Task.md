@@ -1,7 +1,3 @@
-# Lesson 1 Task – Getting Started
-
-Builds on: [Lesson 1 – Getting Started](../Lesson/Lesson-01-Getting-Started.md)
-
 ## What You'll Build
 
 A game window with a running game loop, showing a 3-segment snake sitting still on a grid.
@@ -12,6 +8,9 @@ Open the Exercise for this lesson. `main.py` starts empty; add:
 
 ```python
 import pygame
+import os
+
+os.environ["SDL_AUDIODRIVER"] = "dsp"
 
 pygame.init()
 
@@ -77,10 +76,6 @@ Try changing one of the coordinates in `snake_list` to something that isn't a mu
 
 ## Self-Check
 
-- [ ] A window opens and stays open until closed
-- [ ] 3 green squares appear in a horizontal line
-- [ ] I can explain why the squares are spaced exactly 20 pixels apart
-
----
-
-[← Back to Lesson 1 Concepts](../Lesson/Lesson-01-Getting-Started.md) | [→ Continue to Lesson 2: Movement](../Lesson/Lesson-02-Movement.md)
+- A window opens and stays open until closed
+- 3 green squares appear in a horizontal line
+- I can explain why the squares are spaced exactly 20 pixels apart

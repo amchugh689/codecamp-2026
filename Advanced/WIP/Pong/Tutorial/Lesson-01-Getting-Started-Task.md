@@ -1,7 +1,5 @@
 # Lesson 1 Task – Getting Started
 
-Builds on: [Lesson 1 – Getting Started](../Lesson/Lesson-01-Getting-Started.md)
-
 ## What You'll Build
 
 A game window with a running game loop, showing a paddle and a ball sitting still on screen.
@@ -12,6 +10,9 @@ Open the Exercise for this lesson. `main.py` starts empty; add:
 
 ```python
 import pygame
+import os
+
+os.environ["SDL_AUDIODRIVER"] = "dsp"
 
 pygame.init()
 
@@ -72,11 +73,7 @@ Try changing `PADDLE_HEIGHT` or `BALL_SIZE` and re-running: you should see their
 
 ## Self-Check
 
-- [ ] A window opens and stays open until closed
-- [ ] A paddle-shaped rectangle appears near the left edge
-- [ ] A round ball appears near the centre
-- [ ] Changing `PADDLE_HEIGHT` or `BALL_SIZE` changes their on-screen size
-
----
-
-[← Back to Lesson 1 Concepts](../Lesson/Lesson-01-Getting-Started.md) | [→ Continue to Lesson 2: Paddle Movement](../Lesson/Lesson-02-Paddle-Movement.md)
+- A window opens and stays open until closed
+- A paddle-shaped rectangle appears near the left edge
+- A round ball appears near the centre
+- Changing `PADDLE_HEIGHT` or `BALL_SIZE` changes their on-screen size

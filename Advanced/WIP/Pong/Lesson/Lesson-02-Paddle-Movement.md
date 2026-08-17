@@ -16,7 +16,3 @@ If you only ever added or subtracted from the paddle's position, it would happil
 
 - What's the difference between `pygame.event.get()` and `pygame.key.get_pressed()`?
 - Why does movement need a boundary check as well as a key check?
-
----
-
-Ready to put this into practice? Head to [Lesson 2 Task – Paddle Movement](../Tutorial/Lesson-02-Paddle-Movement-Task.md).

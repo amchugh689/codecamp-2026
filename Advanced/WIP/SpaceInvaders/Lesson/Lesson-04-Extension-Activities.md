@@ -29,7 +29,3 @@ Small blocks of cover between the player and the enemies that can be shot away b
 ## Idea: Sound Effects
 
 A short sound for firing and a different one for an enemy being destroyed. Browser-based environments don't always support audio reliably, so sound code is usually written to fail silently rather than crash the game if it doesn't work.
-
----
-
-Ready to try one? Head to [Lesson 4 Task – Extension Activities](../Tutorial/Lesson-04-Extension-Activities-Task.md).

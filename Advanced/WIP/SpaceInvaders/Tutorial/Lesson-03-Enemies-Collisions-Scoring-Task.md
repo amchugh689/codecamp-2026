@@ -18,7 +18,7 @@ Add this inside the game loop, after your bullet-movement code:
 ```python
     hit_edge = False
     for enemy in enemies:
-        if enemy[0] <= 0 or enemy[0] >= WINDOW_WIDTH - ENEMY_WIDTH:
+        if (enemy_dx > 0 and enemy[0] >= WINDOW_WIDTH - ENEMY_WIDTH) or (enemy_dx < 0 and enemy[0] <= 0):
             hit_edge = True
 
     if hit_edge:
